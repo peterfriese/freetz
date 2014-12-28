@@ -47,4 +47,5 @@ forwarded_for off
 visible_hostname $(hostname)
 log_fqdn off
 detect_broken_pconn on
+mime_table /usr/local/squid/etc/mime.cfg
 EOF
